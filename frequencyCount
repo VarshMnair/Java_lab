@@ -1,0 +1,30 @@
+import java.util.*; 
+class Occurence
+{
+public static void main(String args[])
+ {
+ char key;
+ int l,i,count=0;
+ String A;
+ Scanner sc = new Scanner(System.in);
+ System.out.println("Enter a string");
+ A = sc.nextLine();
+ l = A.length();
+ System.out.println("Enter the character to check");
+ key=sc.nextLine().charAt(0);
+ for (i=0;i<l;i++)
+ {
+ if(A.charAt(i)==key)
+ count=count+1;
+ }
+ if(count==0)
+ {
+ System.out.println("Character not found");
+ }
+ else
+ {
+8
+ System.out.println("The no of occurences is "+count);
+ }
+ }
+} 
