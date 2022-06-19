@@ -23,7 +23,6 @@ public static void main(String args[])
  }
  else
  {
-8
  System.out.println("The no of occurences is "+count);
  }
  }
